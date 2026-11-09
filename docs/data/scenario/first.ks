@@ -1,39 +1,49 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="AFTER LAST TRAIN"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「AFTER LAST TRAIN」[l][r]
 
-メロスは激怒した。[l][r]
+時刻は0時41分。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+大学の最寄駅で友達と飲んでいたら、一人で終電を逃してしまった。[l][r]
 
-(中略)[l][r]
+財布には1200円。カードは滞納しすぎて止められている。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+俺「どうすんだよ、、、」[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+
+[link target=*tag_friend] →友達の家に行く [endlink][r]
+[link target=*tag_taxi] →タクシーで帰る [endlink][r]
+[link target=*tag_bike] →自転車で帰る [endlink][r]
+[link target=*tag_cafe] →ネカフェに入る [endlink][r]
 [s]
 
-*tag_sleep
+*tag_friend
 
 [cm]
 
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
+俺「そういえば、あいつの家日吉駅だったな、、、」[l][r]
+
+(プルルルル......)
+
+友達「もしもし？どうした？」[l][r]
+
+俺「終電逃してさ、、泊めてくれない？」
+
+
 勇者は、ひどく赤面した。[r]
 
 【 BAD END 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_taxi
 
 [bg storage=run.jpg time=500]
 
@@ -43,4 +53,10 @@
 
 【 GOOD END 】[l][cm]
 
+*tag_bike
+
+
+*tag_cafe
+
 [jump target=*start]
+
