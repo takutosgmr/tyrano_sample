@@ -7,7 +7,7 @@
 [freeimage layer="base"]
 [cm]
 
-「AFTER LAST TRAIN」[l][r]
+「AFTER THE LAST TRAIN」[l][r]
 
 時刻は0時41分。[l][r]
 
