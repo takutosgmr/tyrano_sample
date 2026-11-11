@@ -1,7 +1,7 @@
 
 *start
 
-[title name="AFTER LAST TRAIN"]
+[title name="AFTER THE LAST TRAIN"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
